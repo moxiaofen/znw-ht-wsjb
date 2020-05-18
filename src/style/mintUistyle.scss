@@ -1,0 +1,6 @@
+
+$color-primary: #1aad19;
+.mint-switch-input:checked + .mint-switch-core {
+  border-color: $color-primary;
+  background-color: $color-primary;
+}

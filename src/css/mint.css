@@ -1,0 +1,188 @@
+/*修改mint_ui默认的Toast样式*/
+/* .mint-toast {
+  width: max-content;
+  background: #000000 !important;
+  opacity: 0.5;
+  border-radius: 14px !important;
+  padding: 0 !important;
+} */
+
+.mint-toast.is-placemiddle, .mint-indicator-wrapper {
+  transform: translate(-50%, -50%) !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+  -moz-transform: translate(-50%, -50%) !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  -o-transform: translate(-50%, -50%) !important;
+}
+
+/* .mint-toast-text {
+  font-size: 32px !important;
+  color: #ffffff !important;
+  letter-spacing: 0 !important;
+  margin: 40px 72px !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.50) !important;
+} */
+
+.mint-actionsheet-list {
+  background: rgba(255, 255, 255, 0.80) !important;
+}
+
+.mint-popup-4 {
+  background: #d5d8df !important;
+  width: 100% !important;
+  overflow: scroll !important;
+}
+
+.mint-actionsheet-listitem {
+  font-size: 36px !important;
+  color: #0076ff !important;
+  padding: 30px 0 !important;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 54px !important;
+}
+
+.mint-actionsheet-button {
+  background: rgba(255, 255, 255, 0.80);
+  font-size: 36px !important;
+  color: #0076ff !important;
+  padding: 30px 0 !important;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 54px !important;
+}
+
+.picker-items {
+  margin-top: 40px !important;
+}
+
+.picker-item {
+  font-size: 34px !important;
+  color: #999999 !important;
+  letter-spacing: 3px !important;
+}
+
+.picker-slot {
+  font-size: 34px !important;
+  line-height: 50px !important;
+}
+
+.picker-center-highlight:before,
+.picker-center-highlight:after {
+  background-color: #abaeb5 !important;
+  height: 5px !important;
+}
+
+.picker-item.picker-selected {
+  font-size: 44px !important;
+  color: #262a2d !important;
+}
+
+.mint-msgbox {
+  border-radius: 15px !important;
+  transform: translate(-50%, -50%) !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+  -moz-transform: translate(-50%, -50%) !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  -o-transform: translate(-50%, -50%) !important;
+}
+
+.mint-msgbox .mint-msgbox-btns {
+  height: auto;
+  display: flex;
+}
+
+.mint-msgbox-btn {
+  font-size: 35px !important;
+  color: #0076ff !important;
+  letter-spacing: 0;
+  padding: 25px 0 !important;
+  text-align: center;
+}
+
+.mint-msgbox-title {
+  font-size: 35px !important;
+  color: #333333 !important;
+  margin-top: 40px !important;
+  padding: 0 15px !important;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 45px !important;
+}
+
+.mint-msgbox-message {
+  font-size: 30px !important;
+  color: #666666 !important;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 20px 0 !important;
+  line-height: 42px !important;
+}
+
+/* .mint-tab-item-icon {
+  width: 50px !important;
+  height: 50px !important;
+  margin: 12px auto 5px !important;
+} */
+
+/* .mint-tab-item-icon > * {
+  width: 50px !important;
+  height: 50px !important;
+  margin: 12px auto 5px !important;
+} */
+
+/* .mint-tab-item-label {
+  font-size: 34px !important;
+  margin-bottom: 6px !important;
+  margin-top: 5px !important;
+} */
+
+.page-tabbar {
+  overflow: hidden;
+}
+
+.page-wrap {
+  overflow: visible;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #c1c1c1;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #c1c1c1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #c1c1c1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #c1c1c1;
+}
+
+input, button {
+  outline: none;
+}
+
+// mint navbar
+.mint-navbar {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 32px;
+    text-align: center;
+}
+.mint-navbar .mint-tab-item {
+    padding: 17px 0;
+    font-weight: bolder;
+}
+
+.mint-navbar .mint-tab-item.is-selected {
+    border-bottom: 2px solid #FFC600;
+    color: #FFC600;
+    margin-bottom: -1px;
+}
